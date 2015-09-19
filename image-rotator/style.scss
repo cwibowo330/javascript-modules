@@ -1,0 +1,14 @@
+.img-rotator {
+	.current {
+		display: block;
+		z-index: 2;
+	}
+	.previous {
+		z-index: 1;
+	}
+	div {
+		display: none;
+		z-index: 0;
+		position: absolute;
+	}
+}
